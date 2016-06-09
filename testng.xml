@@ -1,0 +1,113 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Alfresco Login" verbose="1" parallel="classes" thread-count="6">
+ <listeners>
+		<!-- <listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> -->
+		<listener class-name="com.zaizi.automation.listeners.TestListener" />
+    </listeners>
+
+	<test name="Test-Login Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.LoginTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.LoginTest_Chrome"/>
+			<!-- <class name="com.zaizi.automation.alfresco.testScripts.LoginTest_IE"/> -->
+			
+		</classes>
+	</test>
+	<!-- <test name="Test-Site creation Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteTest_IE"/>
+			
+		</classes>
+	</test> -->
+	
+	<!-- <test name="Test-User test Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserTest_IE"/>
+			
+		</classes>
+	</test> -->
+	<!-- <test name="Test-UserGroup test Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserGroupTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserGroupTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.UserGroupTest_IE"/>
+			
+		</classes>
+	</test> -->
+	<!-- <test name="Test-Folder creation Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.FolderCreation_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.FolderCreation_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.FolderCreation_IE"/>
+			
+		</classes>
+	</test>
+	<test name="Test-Document Library Test Alfresco">	
+				
+		<classes>
+			<class name="com.zaizi.automation.alfresco.testScripts.DocumentLibraryTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.DocumentLibraryTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.DocumentLibraryTest_IE"/>
+			
+		</classes>
+	</test>
+
+	<test name="Internal_User_Invitations">	
+		<classes>
+			
+			<class name="com.zaizi.automation.alfresco.testScripts.Internal_User_Invitations_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.Internal_User_Invitations_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.Internal_User_Invitations_IE"/>
+			
+		
+
+		</classes>
+	</test>
+	
+	<test name="External_User_Invitation">	
+		<classes>
+		
+			<class name="com.zaizi.automation.alfresco.testScripts.External_User_Invitation_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.External_User_Invitation_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.External_User_Invitation_IE"/>
+				
+		</classes>
+	</test>
+
+	<test name="MainDashBoardTest">	
+		<classes>
+			
+			<class name="com.zaizi.automation.alfresco.testScripts.MainDashBoardTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.MainDashBoardTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.MainDashBoardTest_IE"/>
+			
+		</classes>
+	</test>
+	
+	<test name="SiteDashBoardTest">	
+		<classes>
+			
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteDashBoardTest_Chrome"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteDashBoardTest_FF"/>
+			<class name="com.zaizi.automation.alfresco.testScripts.SiteDashBoardTest_IE"/>
+			
+		</classes>
+	</test> -->
+	<test name="Email Report">
+		<classes>
+			<class name="com.zaizi.automation.email.sendEmailReport"/>			
+			
+		</classes>
+	</test>
+</suite>

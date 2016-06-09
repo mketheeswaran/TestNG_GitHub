@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Alfresco Login" duration-ms="318138" started-at="2016-06-08T12:40:47Z" finished-at="2016-06-08T12:46:06Z">
+    <groups>
+    </groups>
+    <test name="Test-Site creation Alfresco" duration-ms="318075" started-at="2016-06-08T12:40:47Z" finished-at="2016-06-08T12:46:06Z">
+      <class name="com.zaizi.automation.alfresco.testScripts.SiteTest_FF">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="beforeClass" is-config="true" duration-ms="22" started-at="2016-06-08T18:10:47Z" finished-at="2016-06-08T18:10:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="beforemethod" is-config="true" duration-ms="8103" started-at="2016-06-08T18:10:48Z" finished-at="2016-06-08T18:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="createSite(java.lang.String, java.lang.Boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="createSite" duration-ms="57500" started-at="2016-06-08T18:10:56Z" data-provider="getData" finished-at="2016-06-08T18:11:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UKFF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[ukffURL]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[COULD NOT CREATE SITE SINCE THE URL IS ALREADY USED]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Administrator]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[FFSiteTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createSite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="close" is-config="true" duration-ms="274" started-at="2016-06-08T18:11:53Z" finished-at="2016-06-08T18:11:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="beforemethod" is-config="true" duration-ms="6272" started-at="2016-06-08T18:11:53Z" finished-at="2016-06-08T18:12:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="createUser(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="createUser" duration-ms="59049" started-at="2016-06-08T18:12:00Z" data-provider="getData" finished-at="2016-06-08T18:12:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[privateuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[privateuser]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[privateuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[privateuser]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1qaz@WSX]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[privateuser privateuser]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[FFSiteTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="close" is-config="true" duration-ms="206" started-at="2016-06-08T18:12:59Z" finished-at="2016-06-08T18:12:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="beforemethod" is-config="true" duration-ms="6189" started-at="2016-06-08T18:12:59Z" finished-at="2016-06-08T18:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="editSite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="editSite" duration-ms="66958" started-at="2016-06-08T18:13:05Z" data-provider="getData" finished-at="2016-06-08T18:14:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UKFF]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[UKFF2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FFSiteTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editSite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="close" is-config="true" duration-ms="223" started-at="2016-06-08T18:14:12Z" finished-at="2016-06-08T18:14:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="beforemethod()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="beforemethod" is-config="true" duration-ms="5484" started-at="2016-06-08T18:14:12Z" finished-at="2016-06-08T18:14:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method status="PASS" signature="deleteSite(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="deleteSite" duration-ms="107495" started-at="2016-06-08T18:14:18Z" data-provider="getData" finished-at="2016-06-08T18:16:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[UKFF2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[ukffURL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[FFSiteTest]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteSite -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="close" is-config="true" duration-ms="256" started-at="2016-06-08T18:16:05Z" finished-at="2016-06-08T18:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+        <test-method status="PASS" signature="extent()[pri:0, instance:com.zaizi.automation.alfresco.testScripts.SiteTest_FF@5ad851c9]" name="extent" is-config="true" duration-ms="27" started-at="2016-06-08T18:16:06Z" finished-at="2016-06-08T18:16:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extent -->
+      </class> <!-- com.zaizi.automation.alfresco.testScripts.SiteTest_FF -->
+    </test> <!-- Test-Site creation Alfresco -->
+    <test name="Email Report" duration-ms="1" started-at="2016-06-08T12:46:06Z" finished-at="2016-06-08T12:46:06Z">
+      <class name="com.zaizi.automation.email.sendEmailReport">
+        <test-method status="PASS" signature="aftersuite()[pri:0, instance:com.zaizi.automation.email.sendEmailReport@1d76aeea]" name="aftersuite" is-config="true" duration-ms="12937" started-at="2016-06-08T18:16:06Z" finished-at="2016-06-08T18:16:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- com.zaizi.automation.email.sendEmailReport -->
+    </test> <!-- Email Report -->
+  </suite> <!-- Alfresco Login -->
+</testng-results>
